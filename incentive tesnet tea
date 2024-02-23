@@ -1,0 +1,18 @@
+Registering an OSS Project
+Once your project is registered, it will be visible within the tea community, attracting potential supporters, contributors and users. You can also track the utilization and impact of your project, which can earn you rewards based on its value and receive vulnerabilities reports from other members of the tea community. Registering your project on the tea protocol showcases your commitment to the sustainability and integrity of open-source software.
+Why register an OSS Project?
+Registering your OSS project on the tea protocol offers several benefits. It allows you to gain visibility within the tea community, attract potential contributors and users, and track the utilization and impact of your project. This data can be used to earn rewards based on the value of your project. Additionally, registering your project on the tea protocol incentivizes security researchers to disclose vulnerabilities ethically and responsibly.
+The tea protocol introduces the concept of , which measures a project's utilization or dependents in the open-source ecosystem. A project's teaRank is calculated using the  algorithm, which assesses the project's impact on the entire open-source software ecosystem.
+Based on your project's teaRank, the protocol determines the number of rewards to be distributed on a daily basis. Higher teaRank, achieved through more (reputable) open-source software depending on your project, results in more rewards. However, earning rewards is not limited to teaRank alone. Projects can also earn rewards from community members who stake their TEA on them. When community members stake their TEA on your project, they signify their belief and support for your project and empower your project with additional incentives by distributing a portion of their staking rewards to your project's treasury.
+How to register a project?
+To register an OSS project on the protocol you’ll need to follow these steps when the tea Incentivized Testnet launches:
+Visit the tea web app and log in to your tea protocol account.
+Go to the "My OSS Projects" section.
+Provide the project’s name.
+
+Make sure to double check that it's the correct project by checking its package manager and URL.
+Continue to your project's constitution configuration screen, where you can decide to add contributors. The quorum rules define the minimum number of contributors required to approve any treasury disbursement, any treasury deposits, manage vulnerability reports, govern voting, etc.
+Next, you will need to merge a pull request (PR) to demonstrate ownership of this project. You will need to download your project's constitution file, and manually commit and merge the file to your project's repository.
+
+You need to add this file to the repository to confirm your status as one of the maintainers of the project you are attempting to register.
+Once the file is merged tea will check for the constitution file frequently, and once it's found in the repo, will deploy the project's treasury (on-chain account). You can find your project's on-chain address in the project details page.
